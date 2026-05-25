@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ficus",
+    "precio": 3500,
+    "categoria": "Interior",
+    "img": "/img/FICUS.webp",
+    "descripcion": "Elegante y de hojas grandes."
+  },
+  {
+    "id": 2,
+    "nombre": "Monstera Deliciosa",
+    "precio": 4200,
+    "categoria": "Interior",
+    "img": "/img/Monstera-Deliciosa.webp",
+    "descripcion": "La famosa costilla de Adán."
+  },
+  {
+    "id": 3,
+    "nombre": "Suculenta Mix",
+    "precio": 1200,
+    "categoria": "Exterior",
+    "img": "/img/suculenta.webp",
+    "descripcion": "Pequeña y fácil de cuidar."
+  },
+  {
+    "id": 4,
+    "nombre": "Helecho",
+    "precio": 2800,
+    "categoria": "Interior",
+    "img": "/img/helecho.webp",
+    "descripcion": "Ideal para colgar y dar frescura."
+  },
+  {
+    "id": 5,
+    "nombre": "Lirio",
+    "precio": 3100,
+    "categoria": "Interior",
+    "img": "/img/LIRIO.webp",
+    "descripcion": "Purifica el aire de tu hogar."
+  },
+  {
+    "id": 6,
+    "nombre": "Cactus",
+    "precio": 1900,
+    "categoria": "Exterior",
+    "img": "/img/cactus.webp",
+    "descripcion": "Resistente y de bajo mantenimiento."
+  }
+]
