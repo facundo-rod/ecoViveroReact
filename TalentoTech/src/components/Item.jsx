@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-// Asegúrate de recibir las propiedades exactamente como vienen del JSON: id, nombre, precio, img
 const Item = ({ id, nombre, precio, img }) => {
   return (
     <div style={styles.card}>
@@ -9,7 +8,6 @@ const Item = ({ id, nombre, precio, img }) => {
           src={img} 
           alt={nombre} 
           style={styles.img} 
-          // Si por alguna razón una sola imagen falla, carga este comodín para que NO se rompa la tarjeta completa
           onError={(e) => { 
             e.target.src = "https://via.placeholder.com/300x200?text=Planta"; 
           }}
@@ -27,7 +25,7 @@ const styles = {
     border: '1px solid #ddd', 
     borderRadius: '12px', 
     padding: '20px', 
-    width: 'calc(33.333% - 20px)', // Esto calcula las 3 columnas en tu notebook
+    width: 'calc(33.333% - 20px)', 
     minWidth: '250px', 
     textAlign: 'center', 
     backgroundColor: '#fff',
@@ -50,7 +48,7 @@ const styles = {
   img: { 
     width: '100%',     
     height: '100%',    
-    objectFit: 'cover', // Recorta de forma armoniosa para que no se deformen
+    objectFit: 'cover',
   },
   title: {
     fontSize: '1.2rem',
@@ -61,7 +59,7 @@ const styles = {
     fontSize: '1.1rem',
     fontWeight: 'bold',
     marginBottom: '1rem',
-    color: '#2e7d32' // Color verde para el precio
+    color: '#2e7d32' 
   },
   button: { 
     display: 'inline-block', 
