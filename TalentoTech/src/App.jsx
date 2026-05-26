@@ -3,7 +3,7 @@ import { CartProvider } from "./context/CartContext";
 import Layout from "./components/Layout";
 import ItemListContainer from "./components/ItemListContainer"; 
 import DetalleProducto from "./pages/DetalleProducto";
-import Carrito from "./pages/Carrito"; 
+import Carrito from "./pages/Carrito"; []
 
 const Home = () => (
   <div style={{ textAlign: 'center', padding: '40px' }}>
